@@ -1,5 +1,7 @@
 # Installing a Local Kubernetes Cluster with Minikube
 
+![Minikube](image.png)
+
 ### What is Minikube?
 
 Minikube is the **easiest and most popular way to run Kubernetes on your own laptop or workstation**. It sets up a fully functional Kubernetes cluster — single-node or multi-node — isolated from your host machine so you can learn, experiment, and tear it all down when you're done, leaving zero traces behind.
