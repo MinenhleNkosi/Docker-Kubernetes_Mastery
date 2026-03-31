@@ -149,15 +149,15 @@ Tools like Kubernetes help **pack workloads more densely** onto available hardwa
 
 ```mermaid
 graph LR
-    subgraph NIGHT[🌙 Low Traffic\n2am]
+    subgraph NIGHT[🌙 Low Traffic 2am]
         S1[📦 2 instances running\n💰 Low cost]
     end
 
-    subgraph DAY[☀️ Peak Traffic\n12pm]
+    subgraph DAY[☀️ Peak Traffic 12pm]
         S2[📦📦📦📦📦 10 instances\n💰 Pay for what's needed]
     end
 
-    subgraph OFF[⚡ Zero Traffic\nScheduled tasks]
+    subgraph OFF[⚡ Zero Traffic Scheduled tasks]
         S3[Scale to zero\n💰 Pay nothing]
     end
 
